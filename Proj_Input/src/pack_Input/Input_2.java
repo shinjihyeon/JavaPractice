@@ -21,4 +21,29 @@ public class Input_2 {
 
 }
 
+/*
+ * Scanner scanner = new Scanner(System.in);
+		System.out.println("전기사용량을 입력하세요(kw) : ");
+		int use = scanner.nextInt();
+		scanner.close();
+		
+		int basic = 660;
+		double kw = 88.5;
+		double total = basic + (use * kw);
+		double se = 0.09;
+		double endBill = total + total * se;
+		System.out.printf("전기사용요금(세후사용요금)은 %.0f원 입니다.", endBill);*/
+
+/*
+ * Scanner scanner = new Scanner(System.in);
+		System.out.println("몸무게를 입력하세요(kg) : ");
+		double m =scanner.nextDouble();
+		System.out.println("키를 입력하세요(cm) : ");
+		double k = scanner.nextDouble();
+		scanner.close();
+		k /= 100;
+		double BMI = m/Math.pow(k, 2);
+		System.out.printf("BMI : %.1f", BMI);
+ * */
+
 
